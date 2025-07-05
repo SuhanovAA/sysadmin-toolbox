@@ -17,7 +17,6 @@ $UWPAppstoRemove = @(
 	"Microsoft.MicrosoftOfficeHub",
 	"Microsoft.MicrosoftStickyNotes",
 	"Microsoft.People",
-	"Microsoft.ScreenSketch",
 	"microsoft.windowscommunicationsapps",
 	"Microsoft.WindowsFeedbackHub",
 	"Microsoft.WindowsMaps",
