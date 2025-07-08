@@ -1,17 +1,22 @@
-# Настройка цветного Bash prompt (file bash-promt.sh)
+# Настройка цветного Bash prompt (file bash-prompt.sh)
 
 ![Preview .bashrc](./images/bashrc-path.PNG)
 
 The setup information from the site was used [Bash prompt manual](https://wiki.archlinux.org/title/Bash/Prompt_customization).
 
-1. Download the bash-promt.sh file from the repository
+1. Download and start the bash-prompt.sh file from the repository
     ```bash
-    wget https://github.com/SuhanovAA/sysadmin-toolbox/tree/main/linux-scripts/bash-promt.sh
+    wget https://raw.githubusercontent.com/SuhanovAA/sysadmin-toolbox/refs/heads/main/linux-scripts/bash-prompt.sh
+    chmod +x bash-prompt.sh
+    ./bash-prompt.sh
     ```
     or
     ```bash
-    curl -O https://github.com/SuhanovAA/sysadmin-toolbox/tree/main/linux-scripts/bash-promt.sh
+    curl -O https://raw.githubusercontent.com/SuhanovAA/sysadmin-toolbox/refs/heads/main/linux-scripts/bash-prompt.sh
+    chmod +x bash-prompt.sh
+    ./bash-prompt.sh
     ```
+    
     
 2. Add the following code to your `~/.bashrc` file:
 
