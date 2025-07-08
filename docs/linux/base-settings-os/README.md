@@ -1,4 +1,4 @@
-# Настройка цветного Bash prompt (file bash-prompt.sh)
+# Bash prompt (file bash-prompt.sh)
 
 ![Preview .bashrc](./images/bashrc-path.PNG)
 
@@ -32,3 +32,9 @@ The setup information from the site was used [Bash prompt manual](https://wiki.a
 
     export PS1
     ```
+
+    and execute in terminal:
+    
+    ```bash 
+    source ~/.bashrc 
+    ```    
