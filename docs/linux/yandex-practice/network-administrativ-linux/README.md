@@ -112,3 +112,6 @@ networkctl # view network connection
 networkctl status
 networkctl status -all
 ```
+
+Parameters `Link File` and  `Network File` point to files that describe the settings.
+Let's look at an example of setting up a network connection. Instead of defining via DHCP, we will set the parameters explicitly, and take the data from the output `networkctl status`. Since `systemd-networkd` it automatically defines devices and their basic settings, there is no need to create files describing the physical parameters of the interfaces.
