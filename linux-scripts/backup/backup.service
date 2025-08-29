@@ -1,0 +1,8 @@
+[Unit]
+Description=Auto archive
+After=network.target
+
+[Service]
+Type=oneshot
+User=s3585592
+ExecStart=/home/s3585592/backup.sh
